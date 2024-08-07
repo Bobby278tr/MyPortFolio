@@ -6,6 +6,7 @@ import textAnalyzer from "../assets/textAnalyzer.jpg";
 import stickyNotes from "../assets/stickyNotes.jpg";
 import todoList from "../assets/todoList.jpg";
 import weather from "../assets/weather.jpg";
+import SchoolLogo from "../assets/SchoolLogo.png";
 export const Bio = {
     name: "Bobby Tripathi",
     roles: [
@@ -175,7 +176,25 @@ export const education = [
         grade: "9.12 CGPA",
         desc: 'I graduated with a Bachelor of Technology in Computer Science and Engineering from Galgotias University, Greater Noida, India, with a GPA of 9.1 (2019-2023). During my academic journey, I published a research paper titled "Adaptive Website with Ranked Pages Using Firefly Optimization" at the International Conference on Information Systems and Computer Networks, showcasing my interest and expertise in innovative web technologies and optimization algorithms.',
         degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
-    }
+    },
+    {
+        id: 1,
+        img: {SchoolLogo},
+        school: "St. Giri Public School, New Delhi",
+        date: "Apr 2018 - Apr 2019",
+        grade: "85%",
+        desc: "I completed my class 12 high school education at St. Giri Public School, New Delhi, where I studied Science.",
+        degree: "CBSE(XII), Science PCM",
+      },
+      {
+        id: 2,
+        img: {SchoolLogo},
+        school: "St. Giri Public School, New Delhi",
+        date: "Apr 2016 - Apr 2017",
+        grade: "92.3%",
+        desc: "I completed my class 10 education at St. Giri Public School, New Delhi.",
+        degree: "CBSE(X)",
+      },
 ];
 
 export const projects = [
@@ -289,7 +308,7 @@ export const projects = [
         description:
             "Developed a to-do app that allows users to add, edit, delete, and mark tasks as complete, providing an intuitive and organized task management experience.",
         image:
-            {todoWebApp},
+            {todoList},
         tags: ["Local Storage", "JavaScript", "HTML", "CSS"],
         category: "web app",
         github: "https://github.com/Bobby278tr/To-Do_List.git",
