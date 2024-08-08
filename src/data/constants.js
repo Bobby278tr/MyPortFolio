@@ -148,20 +148,41 @@ export const skills = [
 export const experiences = [
     {
         id: 0,
-        img: "https://upload.wikimedia.org/wikipedia/commons/0/02/Nokia_wordmark.svg",
+        img: "https://upload.wikimedia.org/wikipedia/commons/archive/c/ca/20230305131810%21Nokia_2023.svg",
         role: "Student Intern",
         company: "Nokia Solutions and Network",
         date: "July 2022 - June 2023",
         desc: "Innovated UI elements with React and JavaScript, implemented Behavior-Driven Development and Cypress for rigorous testing, and actively engaged in code reviews, debugging, and quality assurance for successful product launches.",
         skills: [
-            "Docker",
-            "Kubernetes",
-            "Linux",
-            "React",
+            "ReactJs",
             "JavaScript",
+            "Java",
             "Cypress",
             "Behavior-Driven Development",
-            "Git"
+            "Git",
+            "Linux",
+            "Docker",
+            "Kubernetes"
+        ],
+        doc: "https://drive.google.com/file/d/1NAHPq6-4UA9YoJqbDEXXJ8nyMqZ3X8aQ/view?usp=sharing",
+    },
+    {
+        id: 1,
+        img: "https://upload.wikimedia.org/wikipedia/commons/archive/c/ca/20230305131810%21Nokia_2023.svg",
+        role: "Student Intern",
+        company: "Nokia Solutions and Network",
+        date: "July 2022 - June 2023",
+        desc: "Innovated UI elements with React and JavaScript, implemented Behavior-Driven Development and Cypress for rigorous testing, and actively engaged in code reviews, debugging, and quality assurance for successful product launches.",
+        skills: [
+            "ReactJs",
+            "JavaScript",
+            "Java",
+            "Cypress",
+            "Behavior-Driven Development",
+            "Git",
+            "Linux",
+            "Docker",
+            "Kubernetes"
         ],
         doc: "https://drive.google.com/file/d/1NAHPq6-4UA9YoJqbDEXXJ8nyMqZ3X8aQ/view?usp=sharing",
     },
