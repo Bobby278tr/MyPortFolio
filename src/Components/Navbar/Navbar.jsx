@@ -149,7 +149,7 @@ export const MobileMenuItems = styled.ul`
   height: 100%;
 `
 
-const MobileMenuLinks = styled(LinkR)`
+const MobileMenuLinks = styled.a`
   color: ${({ theme }) => theme.text_primary};
   font-weight: 500;
   cursor: pointer;
@@ -162,7 +162,12 @@ const MobileMenuLinks = styled(LinkR)`
   &.active {
     border-bottom: 2px solid ${({ theme }) => theme.primary};
   }
-`
+`;
+
+const handleScrollToSection = (sectionId) => {
+  const section = document.querySelector(`#${sectionId}`);
+  section.scrollIntoView({ behavior: 'smooth' });
+};
 
 const Navbar = () => {
   const [open, setOpen] = useState(false)
@@ -185,10 +190,10 @@ const Navbar = () => {
         }}/>
         </MobileIcon>
         <NavItems>
-          <NavLink href="#about">About</NavLink>
+          <NavLink href="#herosection">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
-          <NavLink href="#project">Project</NavLink>
+          <NavLink href="#projects">Project</NavLink>
           <NavLink href="#education">Education</NavLink>
         </NavItems>
         <ButtonContainer>
@@ -198,19 +203,24 @@ const Navbar = () => {
       {open &&(
         <MobileMenu open={open}>
           <MobileMenuItems>
-          <MobileMenuLinks href="#about" onClick={() => {
+          <MobileMenuLinks onClick={() => {
+              handleScrollToSection('herosection')
               setOpen(!open)
             }}>About</MobileMenuLinks>
-            <MobileMenuLinks href='#skills' onClick={() => {
+            <MobileMenuLinks onClick={() => {
+              handleScrollToSection('skills')
               setOpen(!open)
             }}>Skills</MobileMenuLinks>
-            <MobileMenuLinks href='#experience' onClick={() => {
+            <MobileMenuLinks onClick={() => {
+              handleScrollToSection('experience')
               setOpen(!open)
             }}>Experience</MobileMenuLinks>
-            <MobileMenuLinks href='#projects' onClick={() => {
+            <MobileMenuLinks onClick={() => {
+              handleScrollToSection('projects')
               setOpen(!open)
             }}>Projects</MobileMenuLinks>
-            <MobileMenuLinks href='#education' onClick={() => {
+            <MobileMenuLinks onClick={() => {
+              handleScrollToSection('education')
               setOpen(!open)
             }}>Education</MobileMenuLinks>
              <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>

@@ -211,7 +211,7 @@ const Image = styled.img`
 
 const HeroSection = () => {
   return (
-    <HeroContainer>
+    <HeroContainer id='herosection'>
       <HeroBg>
         <HeroBgAnimation/>
       </HeroBg>
