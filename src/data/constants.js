@@ -7,6 +7,8 @@ import stickyNotes from "../assets/stickyNotes.jpg";
 import todoList from "../assets/todoList.jpg";
 import weather from "../assets/weather.jpg";
 import SchoolLogo from "../assets/SchoolLogo.png";
+import EducationDoc from "../assets/EducationDoc.png";
+import SerenityBDD from "../assets/Serenity-BDD.png"
 export const Bio = {
     name: "Bobby Tripathi",
     roles: [
@@ -96,12 +98,21 @@ export const skills = [
         ],
     },
     {
-        title: "Android",
+        title: "Language and Framework",
         skills: [
             {
                 name: "Java",
                 image:
                     "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+            },
+            {
+                name: "Cypress",
+                image:
+                    "https://upload.wikimedia.org/wikipedia/commons/8/8f/Cypress-logo.webp",
+            },
+            {
+                name: "Serenity(BDD)",
+                image: SerenityBDD
             },
         ],
     },
@@ -165,30 +176,11 @@ export const experiences = [
             "Kubernetes"
         ],
         doc: "https://drive.google.com/file/d/1NAHPq6-4UA9YoJqbDEXXJ8nyMqZ3X8aQ/view?usp=sharing",
-    },
-    {
-        id: 1,
-        img: "https://upload.wikimedia.org/wikipedia/commons/archive/c/ca/20230305131810%21Nokia_2023.svg",
-        role: "Student Intern",
-        company: "Nokia Solutions and Network",
-        date: "July 2022 - June 2023",
-        desc: "Innovated UI elements with React and JavaScript, implemented Behavior-Driven Development and Cypress for rigorous testing, and actively engaged in code reviews, debugging, and quality assurance for successful product launches.",
-        skills: [
-            "ReactJs",
-            "JavaScript",
-            "Java",
-            "Cypress",
-            "Behavior-Driven Development",
-            "Git",
-            "Linux",
-            "Docker",
-            "Kubernetes"
-        ],
-        doc: "https://drive.google.com/file/d/1NAHPq6-4UA9YoJqbDEXXJ8nyMqZ3X8aQ/view?usp=sharing",
+        logo: EducationDoc
     },
 ];
 
-export const education = [
+export const educations = [
     {
         id: 0,
         img: "https://upload.wikimedia.org/wikipedia/commons/a/af/GU_l.jpg",
@@ -200,7 +192,7 @@ export const education = [
     },
     {
         id: 1,
-        img: {SchoolLogo},
+        img: SchoolLogo,
         school: "St. Giri Public School, New Delhi",
         date: "Apr 2018 - Apr 2019",
         grade: "85%",
@@ -209,7 +201,7 @@ export const education = [
       },
       {
         id: 2,
-        img: {SchoolLogo},
+        img: SchoolLogo,
         school: "St. Giri Public School, New Delhi",
         date: "Apr 2016 - Apr 2017",
         grade: "92.3%",
@@ -226,7 +218,7 @@ export const projects = [
         description:
             "Built a CodePen-like app that enables users to create, save, and view HTML, CSS, and JavaScript projects with real-time saving and retrieval for a seamless and interactive experience.",
         image:
-            {codepen},
+            codepen,
         tags: [
             "Redux",
             "React",
@@ -247,8 +239,8 @@ export const projects = [
         description:
             "Created a secure note-taking app with user authentication and authorization, allowing users to create unique, password-protected IDs to keep their notes private.",
         image:
-            {iNotebook},
-        tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+            iNotebook,
+        tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux", "Bootstrap", "ThunderClient"],
         category: "web app",
         github: "https://github.com/Bobby278tr/iNotebook.git",
         webapp: "https://drive.google.com/file/d/1PnWBAL2yGmUciW1W0hYB1K2WZelAqXzE/view",
@@ -260,7 +252,7 @@ export const projects = [
         description:
             'Developed an e-commerce website with responsive design and intuitive user interfaces for seamless adaptability and optimal user experience across devices and platforms.',
         image:
-            {ecommerceWebsite},
+            ecommerceWebsite,
         tags: [
             "HTML",
             "CSS",
@@ -277,9 +269,9 @@ export const projects = [
         description:
             'Built "Daily Dose," a news app offering content across various categories with a responsive design and smooth navigation for an intuitive and accessible user experience.',
         image:
-            {news_app},
-        tags: ["React", "JavaScript", "New Api", "React-Router-Dom"],
-        category: "Web app",
+            news_app,
+        tags: ["React", "JavaScript", "New Api", "React-Router-Dom", "Bootstrap"],
+        category: "web app",
         github: "https://github.com/Bobby278tr/React_DailyDose.git",
         webapp: "https://github.com/Bobby278tr/React_DailyDose.git",
     },
@@ -290,8 +282,8 @@ export const projects = [
         description:
             "Created a Text-Analyzer app that offers various text analysis functionalities, such as case conversion and space removal, with a user-friendly design featuring customizable color palettes for an enhanced experience.",
         image:
-            {textAnalyzer},
-        tags: ["React", "JavaScript"],
+            textAnalyzer,
+        tags: ["React", "JavaScript", "HTML/CSS", "Bootstrap"],
         category: "web app",
         github: "https://github.com/Bobby278tr/Text-Analyzer.git",
         webapp: "https://bobby278tr.github.io/Text-Analyzer/",
@@ -303,9 +295,9 @@ export const projects = [
         description:
             "Developed a Sticky Notes app that allows users to create, edit, and organize notes with an intuitive interface for quick and efficient note-taking.",
         image:
-            {stickyNotes},
-        tags: ["React", "JavaScript", "tailwind"],
-        category: "web app",
+            stickyNotes,
+        tags: ["React", "JavaScript", "tailwind", "HTML/CSS", "Local Storage"],
+        category: "android app",
         github: "https://github.com/Bobby278tr/Sticky_Notes.git",
         webapp: "https://bobby278tr.github.io/Sticky_Notes/",
     },
@@ -316,9 +308,9 @@ export const projects = [
         description:
             "Developed a weather app that provides real-time weather updates, forecasts, and detailed conditions for any location.",
         image:
-            {weather},
-        tags: ["JavaScript", "Weather API", "HTML", "CSS"],
-        category: "web app",
+            weather,
+        tags: ["JavaScript", "Weather API", "HTML/CSS", "Local Storage"],
+        category: "android app",
         github: "https://github.com/Bobby278tr/Weather-App-.git",
         webapp: "https://bobby278tr.github.io/Weather-App-/",
     },
@@ -329,9 +321,9 @@ export const projects = [
         description:
             "Developed a to-do app that allows users to add, edit, delete, and mark tasks as complete, providing an intuitive and organized task management experience.",
         image:
-            {todoList},
-        tags: ["Local Storage", "JavaScript", "HTML", "CSS"],
-        category: "web app",
+            todoList,
+        tags: ["Local Storage", "JavaScript", "HTML/CSS"],
+        category: "android app",
         github: "https://github.com/Bobby278tr/To-Do_List.git",
         webapp: "https://bobby278tr.github.io/To-Do_List/",
     }

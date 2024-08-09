@@ -16,7 +16,11 @@ import ExperienceCard from "../Cards/ExperienceCard";
     position: relative;
     z-index: 1;
     align-items: center;
-    padding: 50px 0px;
+    padding: 40px 0px 80px 0px;
+
+    @media (max-width: 960px){
+      padding: 0px;
+    }
   `;
 
   const Wrapper = styled.div`
@@ -72,7 +76,7 @@ const Experience = () => {
     <Container id="experience">
       <Wrapper>
         <Title>Experience</Title>
-        <Description>My work experience as Software Developer</Description>
+        <Description>My education has been a journey of self-discovery and growth. My education details are as follows.</Description>
         <TimelineSection>
             <Timeline>
                 {experiences.map((experience, index) => (
