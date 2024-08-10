@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortFolio/static/css/main.c55bdca2.css",
-    "main.js": "/MyPortFolio/static/js/main.7583d153.js",
+    "main.js": "/MyPortFolio/static/js/main.b80fcffa.js",
     "static/media/news_app.jpg": "/MyPortFolio/static/media/news_app.e876da5c42d838d8cbe2.jpg",
     "static/media/ecommerceWebsite.jpg": "/MyPortFolio/static/media/ecommerceWebsite.f6528d854c7caf1bbedd.jpg",
     "static/media/textAnalyzer.jpg": "/MyPortFolio/static/media/textAnalyzer.e97882b8765df3b6c180.jpg",
@@ -16,10 +16,10 @@
     "static/media/Serenity-BDD.png": "/MyPortFolio/static/media/Serenity-BDD.658722af81c4b1d7b389.png",
     "index.html": "/MyPortFolio/index.html",
     "main.c55bdca2.css.map": "/MyPortFolio/static/css/main.c55bdca2.css.map",
-    "main.7583d153.js.map": "/MyPortFolio/static/js/main.7583d153.js.map"
+    "main.b80fcffa.js.map": "/MyPortFolio/static/js/main.b80fcffa.js.map"
   },
   "entrypoints": [
     "static/css/main.c55bdca2.css",
-    "static/js/main.7583d153.js"
+    "static/js/main.b80fcffa.js"
   ]
 }
