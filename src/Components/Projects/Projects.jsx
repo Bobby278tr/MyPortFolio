@@ -94,7 +94,7 @@ const CardContainer = styled.div`
     gap: 28px;
 `
 
-const Projects = () => {
+const Projects = ({openModal,setOpenModal}) => {
     const [toggle, setToggle] = useState('all')
   return (
     <Container id='projects'>
@@ -114,18 +114,18 @@ const Projects = () => {
             <ToggleButton onClick={() => setToggle("web app")}>WEB APP'S</ToggleButton>
            )}
            <Divider/>
-           { toggle === 'android app' ? (
-            <ToggleButton active onClick={() => setToggle("android app")}>ANDROID APP'S</ToggleButton>
+           { toggle === 'api app' ? (
+            <ToggleButton active onClick={() => setToggle("api app")}>API APP'S</ToggleButton>
            ):(
-            <ToggleButton onClick={() => setToggle("android app")}>ANDROID APP'S</ToggleButton>
+            <ToggleButton onClick={() => setToggle("api app")}>API APP'S</ToggleButton>
            )}
         </ToggleGroup>
         <CardContainer>
             {toggle === 'all' && projects.map((project) => (
-                <ProjectCards project={project}/>
+                <ProjectCards project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
             {projects.filter((item) => item.category === toggle).map((project) => (
-                <ProjectCards project={project}/>
+                <ProjectCards project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
         </CardContainer>
         </Wrapper>

@@ -271,7 +271,7 @@ export const projects = [
         image:
             news_app,
         tags: ["React", "JavaScript", "New Api", "React-Router-Dom", "Bootstrap"],
-        category: "web app",
+        category: "api app",
         github: "https://github.com/Bobby278tr/React_DailyDose.git",
         webapp: "https://github.com/Bobby278tr/React_DailyDose.git",
     },
@@ -297,7 +297,7 @@ export const projects = [
         image:
             stickyNotes,
         tags: ["React", "JavaScript", "tailwind", "HTML/CSS", "Local Storage"],
-        category: "android app",
+        category: "web app",
         github: "https://github.com/Bobby278tr/Sticky_Notes.git",
         webapp: "https://bobby278tr.github.io/Sticky_Notes/",
     },
@@ -310,7 +310,7 @@ export const projects = [
         image:
             weather,
         tags: ["JavaScript", "Weather API", "HTML/CSS", "Local Storage"],
-        category: "android app",
+        category: "api app",
         github: "https://github.com/Bobby278tr/Weather-App-.git",
         webapp: "https://bobby278tr.github.io/Weather-App-/",
     },
@@ -323,7 +323,7 @@ export const projects = [
         image:
             todoList,
         tags: ["Local Storage", "JavaScript", "HTML/CSS"],
-        category: "android app",
+        category: "web app",
         github: "https://github.com/Bobby278tr/To-Do_List.git",
         webapp: "https://bobby278tr.github.io/To-Do_List/",
     }
