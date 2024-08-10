@@ -216,7 +216,7 @@ export const projects = [
         title: "CODEPEN CLONE",
         date: "May 2024 - June 2024",
         description:
-            "Built a CodePen-like app that enables users to create, save, and view HTML, CSS, and JavaScript projects with real-time saving and retrieval for a seamless and interactive experience.",
+            "Built a CodePen-like app that enables users to create, save, and view HTML, CSS, and JavaScript projects with real-time saving and retrieval for a seamless and interactive experience. user can login or singup through three different methods that are : Username Password, Google Authentication, and Github Authentication ",
         image:
             codepen,
         tags: [
