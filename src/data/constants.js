@@ -21,7 +21,7 @@ export const Bio = {
         "Aspiring candidate with a solid foundation in software development, showcasing proficiency in key programming languages and frameworks.Eager to contribute to innovative projects and collaborate effectively within team environments.Committed to continuous growth and adapting to evolving technologies for impactful contributions in dynamic work settings.",
     github: "https://github.com/Bobby278tr",
     resume:
-        "https://drive.google.com/file/d/12XR0C-GY3_7xYi_pruDSBfTDrZtIqcpw/view?usp=sharing",
+        "https://drive.google.com/file/d/14iBZzpmM_d85rvEBp6B4V7opWglsCgBu/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/bobby-tripathi-b178361b5/"
 };
 
