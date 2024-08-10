@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/MyPortFolio/static/css/main.c55bdca2.css",
+    "main.js": "/MyPortFolio/static/js/main.bc489215.js",
+    "static/media/news_app.jpg": "/MyPortFolio/static/media/news_app.e876da5c42d838d8cbe2.jpg",
+    "static/media/ecommerceWebsite.jpg": "/MyPortFolio/static/media/ecommerceWebsite.f6528d854c7caf1bbedd.jpg",
+    "static/media/textAnalyzer.jpg": "/MyPortFolio/static/media/textAnalyzer.e97882b8765df3b6c180.jpg",
+    "static/media/SchoolLogo.png": "/MyPortFolio/static/media/SchoolLogo.4ef58c29ceb4663ed155.png",
+    "static/media/EducationDoc.png": "/MyPortFolio/static/media/EducationDoc.9d40f3da8d6af513fbf6.png",
+    "static/media/iNotebook.jpg": "/MyPortFolio/static/media/iNotebook.4fb1218c0cc6edefd707.jpg",
+    "static/media/stickyNotes.jpg": "/MyPortFolio/static/media/stickyNotes.311a4b8b1ad248db9ae8.jpg",
+    "static/media/weather.jpg": "/MyPortFolio/static/media/weather.1873881cb0724a9b9876.jpg",
+    "static/media/codepen.jpg": "/MyPortFolio/static/media/codepen.f6fa76dee94e4543355d.jpg",
+    "static/media/todoList.jpg": "/MyPortFolio/static/media/todoList.79a4c9bd163a85b1c0e2.jpg",
+    "static/media/HeroImage.jpg": "/MyPortFolio/static/media/HeroImage.109ccb2f7af28a4216db.jpg",
+    "static/media/Serenity-BDD.png": "/MyPortFolio/static/media/Serenity-BDD.658722af81c4b1d7b389.png",
+    "index.html": "/MyPortFolio/index.html",
+    "main.c55bdca2.css.map": "/MyPortFolio/static/css/main.c55bdca2.css.map",
+    "main.bc489215.js.map": "/MyPortFolio/static/js/main.bc489215.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c55bdca2.css",
+    "static/js/main.bc489215.js"
+  ]
+}
